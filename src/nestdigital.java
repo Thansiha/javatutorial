@@ -8,11 +8,11 @@ public class nestdigital {
         System.out.println("hello world");
         nestdigital obj1 = new nestdigital();
         Scanner input = new Scanner(System.in);
-        System.out.println("enter name");
+        System.out.print("enter name:");
         obj1.EMPNAME=input.nextLine();
-        System.out.println("enter designation");
+        System.out.print("enter designation:");
         obj1.DESIGNATION=input.nextLine();
-        System.out.println("enter empid");
+        System.out.print("enter empid:");
         obj1.EMPID=input.nextInt();
 
     }
