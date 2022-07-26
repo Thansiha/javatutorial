@@ -8,7 +8,8 @@ public class check {
         int num = reader.nextInt();
 
         if (num % 2 == 0) {
-            System.out.println("number is even");}
+            System.out.println("number is even");
+        }
         else{
             System.out.println("number is odd");
         }
